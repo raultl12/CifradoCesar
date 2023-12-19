@@ -43,8 +43,6 @@ def cifradoCesar(mensaje, desplazamiento):
 # Salida: mensajeDescifrado (str)
 def descifradoCesar(mensaje, desplazamiento):
     mensajeDescifrado = ""
-    # Convertir el mensaje a mayusculas
-    mensaje = mensaje.upper()
     # Recorrer el mensaje y descifrar usando el diccionario
     for ch in mensaje:
         if ch in dict:
